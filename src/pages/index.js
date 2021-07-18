@@ -23,7 +23,7 @@ const HomePage = () => {
     }
 
     const handleClickDetailBtn = (id) => {
-        return history.push(`/my-app/user/${id}`);
+        return history.push(`/user/${id}`);
     }
 
 
