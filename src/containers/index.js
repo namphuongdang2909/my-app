@@ -6,8 +6,8 @@ import UserDetails from '../pages/details'
 const AppContainer = () => {
     return (
         <Switch>
-            <Route exact path="/my-app/" component={HomePage} />
-            <Route exact path="/my-app/user/:userId" component={UserDetails} />
+            <Route exact path="/" component={HomePage} />
+            <Route exact path="/user/:userId" component={UserDetails} />
         </Switch>
     );
 }
