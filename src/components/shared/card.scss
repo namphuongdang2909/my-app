@@ -1,0 +1,78 @@
+$cardLong: 150px;
+
+.card {
+    width: 20%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+
+    .card-avatar {
+        display: flex;
+        width: $cardLong;
+        height: $cardLong;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        background-color: rgb(190, 187, 187);
+        font-size: 28px;
+        color: #000;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .card-details {
+        width: 100%;
+        p {
+            width: 100%;
+        }
+        .card-details-name {
+            font-weight: bold;
+            font-size: 20px;
+            color: #333;
+            margin-top: 30px;
+            margin-bottom: 0;
+            line-height: 20px;
+        }
+        .card-details-username {
+            width: 100%;
+            font-weight: 500;
+            font-style: italic;
+            font-size: 16px;
+            color: #777;
+            margin-top: 6px;
+            margin-bottom: 6px;
+            line-height: 16px;
+        }
+        .card-details-website {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 16px;
+            color: rgb(49, 148, 230);
+        }
+    }
+    .card-button {
+        margin-top: 30px;
+        cursor: pointer;
+    }
+}
+
+.btn {
+    border-radius: 5px;
+    background-color: rgb(250, 117, 172);
+    color: white;
+    padding: 10px 20px;
+}
+
+.text {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
